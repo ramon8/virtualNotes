@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no"-->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <title>Hello World</title>
+
+        <!-- *.css -->
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+        <!-- bootstrapp -->
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+
+    </head>
+    <body ng-app="virtualNotesApp" ng-controller="virtualNotes_controller" ng-init="iniciarPantalla()">
+        <ui-view></ui-view>
+        <!-- *.js -->
+        <!-- cordova.js -->
+        <script type="text/javascript" src="cordova.js"></script>
+
+        <!-- angular.js -->
+        <script src="js/angular/angular.js"></script>
+
+        <!-- jQuery.js -->
+        <script src="js/jQuery/jquery.js"></script>
+
+        <!-- bootstrap.js -->
+        <script src="js/bootstrap/bootstrap.js"></script>
+
+        <!-- PLUGINS NPM Y CORDOVA -->
+        <script src="js/angular/angular-ui-router.js"></script>
+        <script src="js/jQuery/jquery.js"></script>
+
+
+        <!-- CONTOLADORES DE ANGULAR -->
+        <script src="js/controladores/app.js"></script>
+        <script src="js/controladores/login.js"></script>
+        <script src="js/controladores/registro.js"></script>
+
+        <!-- *.html -->
+
+    </body>
+</html>
